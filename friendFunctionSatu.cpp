@@ -18,6 +18,6 @@ void setNama(mahasiswa &a, string b)
 int main()
 {
     mahasiswa shinoa;
-    setNama(shinoa, "Kairi gateng");
+    setNama(shinoa, "Kairi ganteng");
     return 0;
 }
