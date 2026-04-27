@@ -7,6 +7,11 @@ public:
     int nim;
     void showNim ()
     {
-        cout 
+        cout << "No Induk = "<<nim<< endl;
     }
+};
+
+int main()
+{
+    mahasiswa *mhs = new mahasiswa{1};
 }
