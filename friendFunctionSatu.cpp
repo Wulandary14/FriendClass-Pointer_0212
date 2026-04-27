@@ -4,7 +4,20 @@ using namespace std;
 class mahasiswa
 {
 private:
-    string name;
+    string nama;
 public:
     friend void setNama(mahasiswa &a, string);
 };
+
+void setNama(mahasiswa &a, string b)
+{
+    a.nama = b;
+    cout << a.nama;
+}
+
+int main()
+{
+    mahasiswa shinoa;
+    setNama(shinoa, "Kairi gateng");
+    return 0;
+}
