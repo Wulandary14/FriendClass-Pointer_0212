@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class mahassiswa{
+class mahasiswa{
     public:
     int nim;
     void showNim(){
@@ -9,3 +9,11 @@ class mahassiswa{
     }
 };
 
+int main (){
+    mahasiswa mhs{1};
+    mhs.showNim();
+
+    mahasiswa &refMhs = mhs;
+    refMhs.nim = 2;
+    mhs.showNim();
+}
